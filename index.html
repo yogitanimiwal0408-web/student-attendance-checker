@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Percentage Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Attendance Percentage Checker</h1>
+        <p>Calculate your attendance percentage</p>
+
+        <div class="box">
+
+            <label>Total Classes</label>
+            <input type="number" id="total">
+
+            <label>Attended Classes</label>
+            <input type="number" id="attended">
+
+            <label>Required Attendance %</label>
+            <input type="number" id="required" value="75">
+
+            <button onclick="calculate()">Calculate Attendance</button>
+
+            <div id="result"></div>
+
+        </div>
+    </div>
+
+    <footer>BCA Mini Project</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
